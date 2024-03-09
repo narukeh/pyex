@@ -1,2 +1,0 @@
-# pyex
-Python Exercises
