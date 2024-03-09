@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/DATA/dokumente/src/ushtrime/pyex/v311"
+set -gx VIRTUAL_ENV "/home/DATA/dokumente/src/ushtrime/python/v311"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
