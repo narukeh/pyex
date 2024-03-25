@@ -4,7 +4,7 @@ import turtle
 
 def squares (angle=0.5):
     turtle.reset()
-    L=330
+    L=660
     turtle.speed(10)
     turtle.penup()
     turtle.goto(-L/2,-L/2)
@@ -15,4 +15,4 @@ def squares (angle=0.5):
         L=L-L*math.sin(angle*math.pi/180)
     turtle.hideturtle()
 
-squares(2)
+squares(1)
