@@ -1,35 +1,27 @@
 #!/usr/bin/env python3
 import math
 
-# def count(fjala, shkronja):
-#     c = 0
-#     for letter in fjala:
-#         if letter == shkronja:
-#             c += 1
-#     return c
-# print(count('otoralingologu','o'))
+print('____')
+integers = [4, 44, 333]
+# print(integers[0]/4 , integers[1]/4 , integers[2]/4 , sep='\n')
+# print('gjendja aktuale e listes:')
+# print(integers)
+# print('____')
 
+for i in range(len(integers)):
+    integers[i] = integers[i] / 4
+    print(integers[i])
+print('gjendja aktuale e listes:')
+print(integers)
+print('____')
 
+# integers = [4, 44, 333]
+# c=0
+# while c<(len(integers)):
+#     integers[c] = integers[c]/4
+#     print(integers[c])
+#     c=c+1
 
-# a=input('emri: ')
-# b=input('mbiemri: ')
-# print('hello,',b,a)
-
-def vp(w):
-    c=0
-    while c < len(w):
-
-        def hp(w):
-            l=len(w)
-            hc=0
-            while hc<l:
-                print( w[hc], end=' ')
-                hc=hc+1
-            print()
-
-        if c==0:
-            hp(w)
-        else:
-            print(w[c])
-        c += 1
-vp('Prizren')
+# print('gjendja aktuale e listes:')
+# print(integers)
+# print('____')
